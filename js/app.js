@@ -50,9 +50,13 @@ function pregunta5 () {
 }
 pregunta5 ();
 
-let despedida = prompt('Para irte ingresa salir, para empezar de nuevo ingresa again');
+let despedida = prompt('¡Listo por hoy! Para irte ingresa salir, para empezar de nuevo ingresa again');
 if (despedida.toLowerCase() === 'salir') {
     alert ('Chao pescao, espero que hayas aprendido <3');
 } else if (despedida.toLowerCase() === 'again') {
-    pregunta1 ()
+    pregunta1 (); 
+    pregunta2 (); 
+    pregunta3 (); 
+    pregunta4 (); 
+    pregunta5 ();
 }
