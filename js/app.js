@@ -54,5 +54,5 @@ let despedida = prompt('Para irte ingresa salir, para empezar de nuevo ingresa a
 if (despedida.toLowerCase() === 'salir') {
     alert ('Chao pescao, espero que hayas aprendido <3');
 } else if (despedida.toLowerCase() === 'again') {
-
+    pregunta1 ()
 }
